@@ -13,3 +13,55 @@ display: inline-block;
 display: inline-block;
 
 }
+.services {
+  text-align: center;
+}
+.services h2 {
+  color: #95782d;
+  text-align: center;
+}
+.service-block {
+  display: inline-block;
+  width: 325px;
+  vertical-align: top;
+  text-align: left;
+}
+.service-block ul {
+  list-style-type: none;
+  padding: 0;
+}
+.section {
+  text-align: center;
+}
+.prices {
+display: inline-block;
+width: 568px;
+margin: 0 64px;
+text-align: left;
+}
+.about {
+  background: #836744;
+}
+.about-head {
+  text-align: center;
+}
+.about-head p {
+  text-align: left;
+  margin: 0 98px;
+}
+.about h2 {
+  color: #c7a457;
+}
+.about p {
+  color: white;
+}
+.contacts li {
+  color: #c7a457;
+}
+.contacts li.phone {
+  color: #eacc8b;
+}
+.sertificates ul li {
+  color: white;
+  background: #624e36
+}
