@@ -11,7 +11,16 @@ display: inline-block;
 }
 .menu {
 display: inline-block;
-
+}
+.what h1 {
+  color: white;
+  background: #624e36;
+  width: 270px;
+}
+.what p {
+  color: white;
+  background: #624e36;
+  width: 410px;
 }
 .services {
   text-align: center;
@@ -20,7 +29,18 @@ display: inline-block;
   color: #95782d;
   text-align: center;
 }
-.service-block {
+/*.service-block {
+  display: inline-block;
+  width: 325px;
+  vertical-align: top;
+  text-align: left;
+}
+.service-block2 img {
+display: inline-block;
+width: 60px;
+
+}
+.service-block2 {
   display: inline-block;
   width: 325px;
   vertical-align: top;
@@ -30,6 +50,10 @@ display: inline-block;
   list-style-type: none;
   padding: 0;
 }
+.service-block img {
+  width: 60px;
+  height: 60px;
+}*/
 .section {
   text-align: center;
 }
@@ -44,24 +68,44 @@ text-align: left;
 }
 .about-head {
   text-align: center;
+  width: 1200px;
 }
 .about-head p {
-  text-align: left;
+  text-align: justify;
   margin: 0 98px;
+}
+.about-man {
+display: inline-block;
+width: 568px;
+margin: 0 64px;
+text-align: justify;
+vertical-align: top;
 }
 .about h2 {
   color: #c7a457;
+  text-align: center;
 }
 .about p {
   color: white;
 }
-.contacts li {
+.contacts {
+  list-style-type: none;
+  text-align: center;
   color: #c7a457;
-}
-.contacts li.phone {
-  color: #eacc8b;
 }
 .sertificates ul li {
   color: white;
-  background: #624e36
+  background: #624e36;
+  list-style-type: none;
+}
+.adress {
+  background: #836744;
+  text-align: center;
+  color: #c7a457;
+}
+.adress ul {
+    list-style-type: none;
+}
+.adress li.phone {
+  color: #eacc8b;
 }
