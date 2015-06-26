@@ -22,27 +22,21 @@ display: inline-block;
   background: #624e36;
   width: 410px;
 }
-.services {
-  text-align: center;
+.wrapper {
+  width: 1200px;
+  margin: auto;
+}
+.services .wrapper {
+display: flex;
+justify-content: space-between;
 }
 .services h2 {
   color: #95782d;
   text-align: center;
 }
-/*.service-block {
+.service-block {
   display: inline-block;
-  width: 325px;
-  vertical-align: top;
-  text-align: left;
-}
-.service-block2 img {
-display: inline-block;
-width: 60px;
-
-}
-.service-block2 {
-  display: inline-block;
-  width: 325px;
+  width: 352px;
   vertical-align: top;
   text-align: left;
 }
@@ -53,31 +47,37 @@ width: 60px;
 .service-block img {
   width: 60px;
   height: 60px;
-}*/
+  float: left;
+}
+.service-block .text {
+  overflow: hidden;
+}
+.service-block .text h3 {
+  margin-top: 0;
+}
 .section {
   text-align: center;
 }
 .prices {
 display: inline-block;
 width: 568px;
-margin: 0 64px;
 text-align: left;
 }
 .about {
   background: #836744;
 }
-.about-head {
-  text-align: center;
-  width: 1200px;
+.about .wrapper {
+  display: flex;
+  justify-content: space-between;
 }
-.about-head p {
+.about-head {
   text-align: justify;
-  margin: 0 98px;
+  width: 1200px;
+  margin: auto;
 }
 .about-man {
 display: inline-block;
 width: 568px;
-margin: 0 64px;
 text-align: justify;
 vertical-align: top;
 }
@@ -93,11 +93,27 @@ vertical-align: top;
   text-align: center;
   color: #c7a457;
 }
+.sertificates ul {
+  background: #624e36;
+  font-size: 13px;
+  width: 568px;
+  height: 78px;
+}
 .sertificates ul li {
   color: white;
-  background: #624e36;
   list-style-type: none;
-}
+  display: inline-block;
+  vertical-align: top;
+  }
+  .sertificates li {
+    padding-top: 20px;
+    padding-left: 103px;
+    padding-bottom: 15px;
+    background-image: url("img/ikona-sertif.png");
+    background-repeat: no-repeat;
+    background-position: 58px 20px;
+    display: inline-block;
+      }
 .adress {
   background: #836744;
   text-align: center;
