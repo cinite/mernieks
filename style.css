@@ -6,22 +6,33 @@ header {
   color: white;
   background: #463524;
 }
-.header img {
+header img {
   margin-left: 59px;
+  margin-top: 25px;
 }
 .menu li {
 display: inline-block;
 font-size: 15px;
-vertical-align: top;
+margin: 0px 10px;
 }
 .menu {
 display: inline-block;
+margin: 25px 0;
+padding: 15px 0;
+}
+.languages {
+  border-left: 1px solid white;
+}
+a {
+color: white;
+text-decoration: none;
+}
+nav {
+  float: right;
 }
 .what {
-
-}
-.what img {
-  width: 100%;
+background: url("img/slide1.jpg");
+height: 596px;
 }
 .what h1 {
   color: white;
@@ -39,6 +50,8 @@ display: inline-block;
 .wrapper {
   width: 1200px;
   margin: 0 auto;
+  overflow: hidden;
+  padding-top: 25px;
 }
 .services .wrapper {
 display: flex;
@@ -108,9 +121,8 @@ text-align: center;
 vertical-align: top;
 }
 
-.about-man img {
-
-
+.about-man p {
+text-align: left;
 }
 .about h2 {
   color: #c7a457;
@@ -145,6 +157,11 @@ vertical-align: top;
     background-position: 58px 20px;
     display: inline-block;
       }
+.clients {
+  color: #95782d;
+  text-align: center;
+  font-size: 30px;
+}
 .adress {
   background: #836744;
   text-align: center;
