@@ -2,6 +2,7 @@ body {
   margin:0;
   font-family: 'Open Sans', sans-serif;
   background: url("img/Mernieks-fons-gaisais.jpg");
+  line-height: 200%;
 }
 header {
   color: white;
@@ -24,7 +25,7 @@ padding: 15px 0;
 .languages {
   border-left: 1px solid white;
 }
-a {
+.menu a {
 color: white;
 text-decoration: none;
 }
@@ -56,8 +57,8 @@ padding-top: 257px;
   margin-left: 81px;
 }
 .wrapper {
-  width: 1200px;
-  margin: 0 auto;
+  margin-left: 100px;
+  margin-right: 100px;
   overflow: hidden;
   padding-top: 25px;
 }
@@ -75,15 +76,11 @@ padding-top: 257px;
   background: url("img/fons-rasejums.png");
   background-position: center bottom;
   background-size: cover;
-
 }
 .services .wrapper {
 display: flex;
 justify-content: space-between;
-
-
 }
-
 .services h3 {
   font-size: 24px;
 }
@@ -92,12 +89,10 @@ justify-content: space-between;
 }
 .service-block {
   display: inline-block;
-  width: 352px;
+  width: 408px;
   vertical-align: top;
   text-align: left;
   color: #473a15;
-
-
 }
 .service-block ul {
   list-style-type: none;
@@ -128,16 +123,20 @@ justify-content: space-between;
 .section {
   text-align: center;
 }
+.text {
+
+}
 .prices.first-block {
 float: left;
+width: 570px;
 }
 .prices {
-  width: 568px;
   text-align: left;
   color: #473a15;
 }
 .prices.second-block {
   float: right;
+  width: 570px;
 }
 
 .prices p {
@@ -151,6 +150,7 @@ float: left;
   }
 .about {
   background: #836744;
+  background-size: 1003px 1405px;
 }
 .about .wrapper {
   display: flex;
@@ -159,10 +159,18 @@ float: left;
 .about-head {
   text-align: justify;
   width: 1200px;
-  margin: auto;
+  margin-left: 100px;
+  margin-right: 100px;
 }
 .about-head h2 {
   font-size: 30px;
+  margin-top: 34px;
+  padding-bottom: 22px;
+  border-bottom: 1px dotted #c7a457;
+}
+.man-wrapper{
+  overflow: hidden;
+  padding-top: 25px;
 }
 .about-man {
 display: inline-block;
@@ -207,22 +215,37 @@ text-align: left;
     background-position: 58px 20px;
     display: inline-block;
       }
-.clients {
+.clients h2 {
   color: #95782d;
   text-align: center;
   font-size: 30px;
+  border-bottom: 1px dotted #736357;
+  padding-bottom: 22px;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 34px;
 }
+.clients img {
+  margin-left: 100px;
+  margin-bottom: 75px;
+}
+
 .adress {
-  background: #836744;
+  background: #6d583d;
   text-align: center;
   color: #c7a457;
 }
 .adress h2 {
   font-size: 30px;
+  padding-bottom: 22px;
+  border-bottom: 1px dotted #c7a457;
 }
 .adress ul {
     list-style-type: none;
 }
 .adress li.phone {
   color: #eacc8b;
+}
+.up-bolt img {
+;
 }
