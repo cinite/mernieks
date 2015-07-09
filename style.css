@@ -5,7 +5,7 @@ body {
   line-height: 200%;
 }
 header {
-  color: white;
+  color: #fff;
   background: #463524;
 }
 header img {
@@ -15,15 +15,23 @@ header img {
 .menu li {
 display: inline-block;
 font-size: 15px;
-margin: 0px 10px;
 }
 .menu {
 display: inline-block;
 margin: 25px 0;
 padding: 15px 0;
 }
+a:hover {
+  background-color: #5b4d3b;
+  background-size: 121px 43px;
+  padding: 17px;
+}
+a {
+  padding: 17px;
+}
 .languages {
   border-left: 1px solid white;
+  margin: 0px 10px;
 }
 .menu a {
 color: white;
@@ -104,8 +112,18 @@ justify-content: space-between;
   float: left;
   margin-right: 25px;
 }
+.service-block li::after {
+  content: "";
+  display: block;
+  width: 20%;
+  border-bottom: 1px solid #c3c0b8;
+}
+.service-block li:last-child::after {
+border: none;
+}
 .service-block .text {
   overflow: hidden;
+  margin: 25px;
 }
 .service-block .text h3 {
   margin-top: 0;
@@ -124,19 +142,22 @@ justify-content: space-between;
   text-align: center;
 }
 .text {
-
+width: 1/3px;
 }
 .prices.first-block {
 float: left;
-width: 570px;
+width: 50%;
+padding-right: 25px;
 }
 .prices {
   text-align: left;
   color: #473a15;
+  box-sizing: border-box;
 }
 .prices.second-block {
   float: right;
-  width: 570px;
+  width: 50%;
+  padding-left: 25px;
 }
 
 .prices p {
@@ -158,27 +179,35 @@ width: 570px;
 }
 .about-head {
   text-align: justify;
-  width: 1200px;
-  margin-left: 100px;
-  margin-right: 100px;
 }
 .about-head h2 {
   font-size: 30px;
-  margin-top: 34px;
+  padding-top: 34px;
   padding-bottom: 22px;
   border-bottom: 1px dotted #c7a457;
 }
-.man-wrapper{
-  overflow: hidden;
-  padding-top: 25px;
-}
-.about-man {
+.about-man-Edgars {
 display: inline-block;
-width: 568px;
-text-align: center;
+width: 50%;
 vertical-align: top;
+padding-right: 25px;
+box-sizing: border-box;
 }
-
+.about-man-Edgars img {
+  display: block;
+  margin: auto;
+}
+.about-man-Tomass {
+  display: inline-block;
+  width: 50%;
+  vertical-align: top;
+  padding-left: 25px;
+  box-sizing: border-box;
+}
+.about-man-Tomass img {
+  display: block;
+  margin: auto;
+}
 .about-man p {
 text-align: left;
 }
@@ -197,23 +226,23 @@ text-align: left;
 .sertificates ul {
   background: #624e36;
   font-size: 13px;
-  width: 568px;
-  height: 78px;
+  text-align: center;
 }
 .sertificates ul li {
-  color: white;
+  color: #fff;
   list-style-type: none;
   display: inline-block;
   vertical-align: top;
+  margin-right: 40px;
   }
   .sertificates li {
     padding-top: 20px;
-    padding-left: 103px;
+    padding-left: 40px;
     padding-bottom: 15px;
     background-image: url("img/ikona-sertif.png");
     background-repeat: no-repeat;
-    background-position: 58px 20px;
-    display: inline-block;
+    background-position: 0px 30px;
+    text-align: center;
       }
 .clients h2 {
   color: #95782d;
@@ -247,5 +276,7 @@ text-align: left;
   color: #eacc8b;
 }
 .up-bolt img {
-;
+position: fixed;
+margin-bottom: 20px;
+margin-right: 20px;
 }
