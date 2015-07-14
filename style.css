@@ -15,6 +15,7 @@ header img {
 .menu li {
 display: inline-block;
 font-size: 15px;
+vertical-align: top;
 }
 .menu {
 display: inline-block;
@@ -68,7 +69,6 @@ padding-top: 257px;
   margin-left: 100px;
   margin-right: 100px;
   overflow: hidden;
-  padding-top: 25px;
 }
 .services-head h2 {
   color: #95782d;
@@ -326,6 +326,10 @@ text-align: justify;
 .contact-us input:first-child {
   margin-right: 15px;
 }
+.contact-us input:last-child {
+    color: #f5f1e9;
+    margin-bottom: 15px;
+}
 .contact-us input {
   width: 195px;
   line-height: 32px;
@@ -338,11 +342,10 @@ text-align: justify;
 .contact-us input::-moz-placeholder {
   color: #a28954;
 }
-
 .contact-us textarea {
   width: 410px;
   height: 142px;
-  padding: 0;
+  padding: 10px;
   margin-bottom: 22px;
 }
 textarea {
