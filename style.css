@@ -9,8 +9,8 @@ header {
   background: #463524;
 }
 header img {
-  margin-left: 59px;
   margin-top: 25px;
+  float: left;
 }
 .menu li {
 display: inline-block;
@@ -46,7 +46,7 @@ background: url("img/slide1.jpg");
 background-repeat: no-repeat;
 background-size: cover;
 height: 596px;
-padding-top: 257px;
+position: relative;
 }
 .what h1 {
   color: white;
@@ -54,8 +54,6 @@ padding-top: 257px;
   padding: 20px 24px;
   width: 241px;
   font-size: 44px;
-  font-weight: 400px;
-  margin-left: 81px;
 }
 .what p {
   color: white;
@@ -63,12 +61,18 @@ padding-top: 257px;
   padding: 20px 24px;
   width: 410px;
   font-size: 24px;
-  margin-left: 81px;
 }
 .wrapper {
-  margin-left: 100px;
-  margin-right: 100px;
+  width: 1200px;
+  margin: auto;
   overflow: hidden;
+}
+.spot-text {
+    position: absolute;
+    bottom: 150px;
+}
+.spot-text h1 {
+  font-weight: 400;
 }
 .services-head h2 {
   color: #95782d;
@@ -123,7 +127,6 @@ border: none;
 }
 .service-block .text {
   overflow: hidden;
-  margin: 25px;
 }
 .service-block .text h3 {
   margin-top: 0;
@@ -148,6 +151,7 @@ width: 1/3px;
 float: left;
 width: 50%;
 padding-right: 25px;
+text-align: justify;
 }
 .prices.first-block table tr:last-child {
   background: transparent;
@@ -164,6 +168,7 @@ padding-right: 25px;
   float: right;
   width: 50%;
   padding-left: 25px;
+  text-align: justify;
 }
 .prices.second-block table{
   border-spacing: 0;
@@ -180,6 +185,9 @@ padding-right: 25px;
 .about {
   background: #836744;
   background-size: 1003px 1405px;
+}
+about-head.wrapper {
+  display: block;
 }
 .about .wrapper {
   display: flex;
@@ -222,6 +230,8 @@ text-align: left;
 .about h2 {
   color: #c7a457;
   text-align: center;
+  margin-left: 100px;
+  margin-right: 100px;
 }
 .about p {
   color: white;
@@ -278,8 +288,15 @@ text-align: justify;
   background: #6d583d;
   text-align: center;
   color: #c7a457;
-
+  overflow: hidden;
 }
+
+.adress > div {
+  width: 1200px;
+  margin: auto;
+  overflow: hidden;
+}
+
 .adress h2 {
   font-size: 30px;
   padding-bottom: 22px;
@@ -287,7 +304,6 @@ text-align: justify;
 }
 .adress iframe {
   width: 409px;
-  float: left;
   border: 10px solid #97804e;
   float: left;
 }
@@ -299,6 +315,7 @@ text-align: justify;
 }
 .how-to-find-us {
   overflow: hidden;
+  text-align: center;
 }
 .contact-us {
   float: right;
@@ -310,7 +327,7 @@ text-align: justify;
   text-align: left;
 }
 .contact-us form {
-  text-align: left;
+
 }
 .contact-us input, .contact-us textarea {
   background-color: #7f6c42;
